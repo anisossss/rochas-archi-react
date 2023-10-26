@@ -27,7 +27,7 @@ export default function App() {
         onEnter: () => {
           setToggle(!toggle);
         },
-        markers: true
+        // markers: true
       },
     });
     timeline.to(props, {
