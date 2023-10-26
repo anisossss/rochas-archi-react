@@ -1,0 +1,30 @@
+
+body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+body {
+    background-image: url("../public/salon2.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
+.wrapper {
+    margin: 0 auto;
+    top: 20%;
+    left: 50%;
+    transform: translate(15%, 20%);
+}
+
+
+
+.donut {
+    left: 20%;
+    position: relative;
+  width: 30%;
+  height: 30%;
+}
+
